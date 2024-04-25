@@ -1,6 +1,6 @@
 ﻿namespace GUI
 {
-    partial class frmMatHang
+    partial class frmDSBan
     {
         /// <summary>
         /// Required designer variable.

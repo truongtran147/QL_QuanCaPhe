@@ -11,13 +11,13 @@ using System.Windows.Forms;
 
 namespace GUI
 {
-    public partial class frmMatHang : Form
+    public partial class frmDSBan : Form
     {
-        public frmMatHang()
+        public frmDSBan()
         {
             InitializeComponent();
         }
-
+         
         private void dongThaoTacKV()
         {
             panel1.Visible = false;
