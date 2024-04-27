@@ -42,9 +42,9 @@
             // 
             this.lblTenMon.BackColor = System.Drawing.Color.White;
             this.lblTenMon.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTenMon.Location = new System.Drawing.Point(15, 8);
+            this.lblTenMon.Location = new System.Drawing.Point(3, 8);
             this.lblTenMon.Name = "lblTenMon";
-            this.lblTenMon.Size = new System.Drawing.Size(230, 17);
+            this.lblTenMon.Size = new System.Drawing.Size(224, 17);
             this.lblTenMon.TabIndex = 3;
             this.lblTenMon.Text = "Bánh Crepe Sầu Riêng Socola";
             this.lblTenMon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -53,9 +53,9 @@
             // 
             this.lblGia.BackColor = System.Drawing.Color.White;
             this.lblGia.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGia.Location = new System.Drawing.Point(385, 8);
+            this.lblGia.Location = new System.Drawing.Point(349, 8);
             this.lblGia.Name = "lblGia";
-            this.lblGia.Size = new System.Drawing.Size(81, 17);
+            this.lblGia.Size = new System.Drawing.Size(75, 17);
             this.lblGia.TabIndex = 5;
             this.lblGia.Text = "30,000 đ";
             this.lblGia.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -64,11 +64,11 @@
             // 
             this.lblThanhTien.BackColor = System.Drawing.Color.White;
             this.lblThanhTien.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblThanhTien.Location = new System.Drawing.Point(485, 8);
+            this.lblThanhTien.Location = new System.Drawing.Point(436, 8);
             this.lblThanhTien.Name = "lblThanhTien";
-            this.lblThanhTien.Size = new System.Drawing.Size(98, 17);
+            this.lblThanhTien.Size = new System.Drawing.Size(83, 17);
             this.lblThanhTien.TabIndex = 6;
-            this.lblThanhTien.Text = "60,000 đ";
+            this.lblThanhTien.Text = "60,00000 đ";
             this.lblThanhTien.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnXoaCTHD
@@ -80,7 +80,7 @@
             this.btnXoaCTHD.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnXoaCTHD.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoaCTHD.ForeColor = System.Drawing.Color.Red;
-            this.btnXoaCTHD.Location = new System.Drawing.Point(595, 1);
+            this.btnXoaCTHD.Location = new System.Drawing.Point(527, 1);
             this.btnXoaCTHD.Name = "btnXoaCTHD";
             this.btnXoaCTHD.Size = new System.Drawing.Size(33, 32);
             this.btnXoaCTHD.TabIndex = 9;
@@ -103,7 +103,7 @@
             this.txtSoLuong.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSoLuong.ForeColor = System.Drawing.Color.Gray;
             this.txtSoLuong.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtSoLuong.Location = new System.Drawing.Point(287, 3);
+            this.txtSoLuong.Location = new System.Drawing.Point(254, 3);
             this.txtSoLuong.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtSoLuong.Name = "txtSoLuong";
             this.txtSoLuong.PasswordChar = '\0';
@@ -130,7 +130,7 @@
             this.btnGiamSL.Image = global::GUI.Properties.Resources.minus_sign;
             this.btnGiamSL.ImageOffset = new System.Drawing.Point(1, 0);
             this.btnGiamSL.ImageSize = new System.Drawing.Size(9, 9);
-            this.btnGiamSL.Location = new System.Drawing.Point(260, 4);
+            this.btnGiamSL.Location = new System.Drawing.Point(227, 4);
             this.btnGiamSL.Name = "btnGiamSL";
             this.btnGiamSL.Size = new System.Drawing.Size(30, 27);
             this.btnGiamSL.TabIndex = 12;
@@ -150,7 +150,7 @@
             this.btnTangSL.ForeColor = System.Drawing.Color.White;
             this.btnTangSL.Image = global::GUI.Properties.Resources.plus_sign;
             this.btnTangSL.ImageSize = new System.Drawing.Size(11, 11);
-            this.btnTangSL.Location = new System.Drawing.Point(327, 4);
+            this.btnTangSL.Location = new System.Drawing.Point(294, 4);
             this.btnTangSL.Name = "btnTangSL";
             this.btnTangSL.Size = new System.Drawing.Size(30, 27);
             this.btnTangSL.TabIndex = 11;
@@ -175,7 +175,7 @@
             this.background.HoverState.ForeColor = System.Drawing.Color.Black;
             this.background.Location = new System.Drawing.Point(0, 0);
             this.background.Name = "background";
-            this.background.Size = new System.Drawing.Size(631, 35);
+            this.background.Size = new System.Drawing.Size(564, 35);
             this.background.TabIndex = 13;
             // 
             // ChiTietHD_GUI
@@ -193,7 +193,7 @@
             this.Controls.Add(this.background);
             this.ForeColor = System.Drawing.Color.Black;
             this.Name = "ChiTietHD_GUI";
-            this.Size = new System.Drawing.Size(631, 35);
+            this.Size = new System.Drawing.Size(564, 35);
             this.Load += new System.EventHandler(this.ChiTietHD_GUI_Load);
             this.ResumeLayout(false);
 

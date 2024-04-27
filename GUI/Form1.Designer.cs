@@ -73,15 +73,15 @@
             this.containerOder.BackColor = System.Drawing.Color.White;
             this.containerOder.Location = new System.Drawing.Point(1, 4);
             this.containerOder.Name = "containerOder";
-            this.containerOder.Padding = new System.Windows.Forms.Padding(3, 3, 0, 0);
-            this.containerOder.Size = new System.Drawing.Size(696, 519);
+            this.containerOder.Padding = new System.Windows.Forms.Padding(6, 3, 0, 0);
+            this.containerOder.Size = new System.Drawing.Size(719, 519);
             this.containerOder.TabIndex = 9;
             // 
             // panel1
             // 
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel1.BackColor = System.Drawing.SystemColors.Info;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.btnDonBan);
             this.panel1.Controls.Add(this.btnInHD);
@@ -90,9 +90,9 @@
             this.panel1.Controls.Add(this.lblGiam);
             this.panel1.Controls.Add(this.txtGiam);
             this.panel1.Controls.Add(this.lblTongTT);
-            this.panel1.Location = new System.Drawing.Point(688, 590);
+            this.panel1.Location = new System.Drawing.Point(632, 590);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(697, 115);
+            this.panel1.Size = new System.Drawing.Size(722, 115);
             this.panel1.TabIndex = 13;
             // 
             // btnDonBan
@@ -112,7 +112,7 @@
             this.btnDonBan.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnDonBan.ImageOffset = new System.Drawing.Point(-5, 0);
             this.btnDonBan.ImageSize = new System.Drawing.Size(40, 40);
-            this.btnDonBan.Location = new System.Drawing.Point(549, 19);
+            this.btnDonBan.Location = new System.Drawing.Point(579, 19);
             this.btnDonBan.Name = "btnDonBan";
             this.btnDonBan.Size = new System.Drawing.Size(114, 77);
             this.btnDonBan.TabIndex = 40;
@@ -137,7 +137,7 @@
             this.btnInHD.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnInHD.ImageOffset = new System.Drawing.Point(-5, 0);
             this.btnInHD.ImageSize = new System.Drawing.Size(40, 40);
-            this.btnInHD.Location = new System.Drawing.Point(427, 19);
+            this.btnInHD.Location = new System.Drawing.Point(457, 19);
             this.btnInHD.Name = "btnInHD";
             this.btnInHD.Size = new System.Drawing.Size(114, 77);
             this.btnInHD.TabIndex = 39;
@@ -162,7 +162,7 @@
             this.btnThanhToan.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnThanhToan.ImageOffset = new System.Drawing.Point(-5, 0);
             this.btnThanhToan.ImageSize = new System.Drawing.Size(40, 40);
-            this.btnThanhToan.Location = new System.Drawing.Point(307, 19);
+            this.btnThanhToan.Location = new System.Drawing.Point(337, 19);
             this.btnThanhToan.Name = "btnThanhToan";
             this.btnThanhToan.Size = new System.Drawing.Size(114, 77);
             this.btnThanhToan.TabIndex = 38;
@@ -174,7 +174,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(21, 68);
+            this.label4.Location = new System.Drawing.Point(36, 68);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(76, 23);
             this.label4.TabIndex = 37;
@@ -184,7 +184,7 @@
             // 
             this.lblGiam.AutoSize = true;
             this.lblGiam.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGiam.Location = new System.Drawing.Point(15, 25);
+            this.lblGiam.Location = new System.Drawing.Point(30, 25);
             this.lblGiam.Name = "lblGiam";
             this.lblGiam.Size = new System.Drawing.Size(82, 23);
             this.lblGiam.TabIndex = 36;
@@ -203,7 +203,7 @@
             this.txtGiam.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtGiam.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold);
             this.txtGiam.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtGiam.Location = new System.Drawing.Point(108, 19);
+            this.txtGiam.Location = new System.Drawing.Point(123, 19);
             this.txtGiam.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtGiam.Name = "txtGiam";
             this.txtGiam.PasswordChar = '\0';
@@ -221,7 +221,7 @@
             this.lblTongTT.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblTongTT.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTongTT.ForeColor = System.Drawing.Color.Green;
-            this.lblTongTT.Location = new System.Drawing.Point(108, 62);
+            this.lblTongTT.Location = new System.Drawing.Point(123, 62);
             this.lblTongTT.Name = "lblTongTT";
             this.lblTongTT.Size = new System.Drawing.Size(172, 34);
             this.lblTongTT.TabIndex = 34;
@@ -236,8 +236,8 @@
             this.containerCTHD.AutoScroll = true;
             this.containerCTHD.Location = new System.Drawing.Point(-1, 30);
             this.containerCTHD.Name = "containerCTHD";
-            this.containerCTHD.Padding = new System.Windows.Forms.Padding(8, 0, 0, 0);
-            this.containerCTHD.Size = new System.Drawing.Size(664, 265);
+            this.containerCTHD.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.containerCTHD.Size = new System.Drawing.Size(597, 249);
             this.containerCTHD.TabIndex = 14;
             // 
             // lblBan
@@ -246,6 +246,7 @@
             this.lblBan.BackColor = System.Drawing.Color.White;
             this.lblBan.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblBan.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBan.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.lblBan.Location = new System.Drawing.Point(12, 29);
             this.lblBan.Name = "lblBan";
             this.lblBan.Size = new System.Drawing.Size(118, 33);
@@ -257,11 +258,10 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(3, 6);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(658, 21);
+            this.label1.Size = new System.Drawing.Size(592, 21);
             this.label1.TabIndex = 0;
-            this.label1.Text = "                          Tên món                                    SL          " +
-    "             Giá                 Thành tiên                                     " +
-    "       ";
+            this.label1.Text = "                       Tên món                                SL                 " +
+    "     Giá            Thành tiên                                            ";
             // 
             // panel2
             // 
@@ -271,9 +271,9 @@
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.containerCTHD);
             this.panel2.Controls.Add(this.label1);
-            this.panel2.Location = new System.Drawing.Point(12, 413);
+            this.panel2.Location = new System.Drawing.Point(12, 429);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(666, 292);
+            this.panel2.Size = new System.Drawing.Size(600, 276);
             this.panel2.TabIndex = 18;
             // 
             // label2
@@ -282,7 +282,8 @@
             this.label2.BackColor = System.Drawing.Color.White;
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(688, 29);
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(154)))), ((int)(((byte)(214)))), ((int)(((byte)(254)))));
+            this.label2.Location = new System.Drawing.Point(632, 29);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(78, 33);
             this.label2.TabIndex = 20;
@@ -294,7 +295,7 @@
             this.label3.BackColor = System.Drawing.SystemColors.Info;
             this.label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(12, 381);
+            this.label3.Location = new System.Drawing.Point(12, 397);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(77, 33);
             this.label3.TabIndex = 21;
@@ -304,10 +305,10 @@
             // 
             this.containerBan.AutoScroll = true;
             this.containerBan.BackColor = System.Drawing.Color.White;
-            this.containerBan.Location = new System.Drawing.Point(13, 65);
+            this.containerBan.Location = new System.Drawing.Point(13, 61);
             this.containerBan.Name = "containerBan";
             this.containerBan.Padding = new System.Windows.Forms.Padding(1, 0, 0, 0);
-            this.containerBan.Size = new System.Drawing.Size(664, 287);
+            this.containerBan.Size = new System.Drawing.Size(599, 293);
             this.containerBan.TabIndex = 12;
             // 
             // cboKhuVuc
@@ -323,7 +324,7 @@
             this.cboKhuVuc.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
             this.cboKhuVuc.ForeColor = System.Drawing.Color.White;
             this.cboKhuVuc.ItemHeight = 20;
-            this.cboKhuVuc.Location = new System.Drawing.Point(531, 27);
+            this.cboKhuVuc.Location = new System.Drawing.Point(466, 27);
             this.cboKhuVuc.Name = "cboKhuVuc";
             this.cboKhuVuc.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(10);
             this.cboKhuVuc.Size = new System.Drawing.Size(147, 26);
@@ -345,7 +346,7 @@
             this.btnLoaiMH.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
             this.btnLoaiMH.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.btnLoaiMH.ItemHeight = 20;
-            this.btnLoaiMH.Location = new System.Drawing.Point(1238, 29);
+            this.btnLoaiMH.Location = new System.Drawing.Point(1205, 29);
             this.btnLoaiMH.Name = "btnLoaiMH";
             this.btnLoaiMH.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(10);
             this.btnLoaiMH.Size = new System.Drawing.Size(147, 26);
@@ -355,7 +356,7 @@
             // 
             this.lblLoaiMH.AutoSize = true;
             this.lblLoaiMH.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLoaiMH.Location = new System.Drawing.Point(1194, 38);
+            this.lblLoaiMH.Location = new System.Drawing.Point(1161, 34);
             this.lblLoaiMH.Name = "lblLoaiMH";
             this.lblLoaiMH.Size = new System.Drawing.Size(38, 20);
             this.lblLoaiMH.TabIndex = 26;
@@ -379,7 +380,7 @@
             this.btnChuyenBan.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnChuyenBan.ImageOffset = new System.Drawing.Point(-2, 0);
             this.btnChuyenBan.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnChuyenBan.Location = new System.Drawing.Point(204, 361);
+            this.btnChuyenBan.Location = new System.Drawing.Point(138, 360);
             this.btnChuyenBan.Name = "btnChuyenBan";
             this.btnChuyenBan.Size = new System.Drawing.Size(114, 46);
             this.btnChuyenBan.TabIndex = 25;
@@ -404,7 +405,7 @@
             this.btnGopBan.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnGopBan.ImageOffset = new System.Drawing.Point(-2, 0);
             this.btnGopBan.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnGopBan.Location = new System.Drawing.Point(324, 361);
+            this.btnGopBan.Location = new System.Drawing.Point(258, 360);
             this.btnGopBan.Name = "btnGopBan";
             this.btnGopBan.Size = new System.Drawing.Size(114, 46);
             this.btnGopBan.TabIndex = 24;
@@ -427,7 +428,7 @@
             this.btnHuyOder.ForeColor = System.Drawing.Color.Black;
             this.btnHuyOder.Image = global::GUI.Properties.Resources.cancel;
             this.btnHuyOder.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnHuyOder.Location = new System.Drawing.Point(444, 361);
+            this.btnHuyOder.Location = new System.Drawing.Point(378, 360);
             this.btnHuyOder.Name = "btnHuyOder";
             this.btnHuyOder.Size = new System.Drawing.Size(114, 46);
             this.btnHuyOder.TabIndex = 17;
@@ -451,7 +452,7 @@
             this.btnTaoHD.Image = global::GUI.Properties.Resources.edit;
             this.btnTaoHD.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnTaoHD.ImageSize = new System.Drawing.Size(24, 24);
-            this.btnTaoHD.Location = new System.Drawing.Point(564, 361);
+            this.btnTaoHD.Location = new System.Drawing.Point(498, 360);
             this.btnTaoHD.Name = "btnTaoHD";
             this.btnTaoHD.Size = new System.Drawing.Size(114, 46);
             this.btnTaoHD.TabIndex = 16;
@@ -463,7 +464,7 @@
             // 
             this.lblKhuVuc.AutoSize = true;
             this.lblKhuVuc.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblKhuVuc.Location = new System.Drawing.Point(460, 34);
+            this.lblKhuVuc.Location = new System.Drawing.Point(395, 34);
             this.lblKhuVuc.Name = "lblKhuVuc";
             this.lblKhuVuc.Size = new System.Drawing.Size(66, 20);
             this.lblKhuVuc.TabIndex = 26;
@@ -473,11 +474,12 @@
             // 
             this.guna2Panel1.BackColor = System.Drawing.Color.White;
             this.guna2Panel1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.guna2Panel1.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
             this.guna2Panel1.BorderThickness = 1;
             this.guna2Panel1.Location = new System.Drawing.Point(12, 60);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Padding = new System.Windows.Forms.Padding(10);
-            this.guna2Panel1.Size = new System.Drawing.Size(666, 295);
+            this.guna2Panel1.Size = new System.Drawing.Size(601, 295);
             this.guna2Panel1.TabIndex = 29;
             // 
             // guna2Panel2
@@ -487,12 +489,13 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2Panel2.BackColor = System.Drawing.Color.White;
             this.guna2Panel2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.guna2Panel2.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
             this.guna2Panel2.BorderThickness = 1;
             this.guna2Panel2.Controls.Add(this.containerOder);
-            this.guna2Panel2.Location = new System.Drawing.Point(688, 60);
+            this.guna2Panel2.Location = new System.Drawing.Point(632, 60);
             this.guna2Panel2.Name = "guna2Panel2";
             this.guna2Panel2.Padding = new System.Windows.Forms.Padding(10);
-            this.guna2Panel2.Size = new System.Drawing.Size(699, 524);
+            this.guna2Panel2.Size = new System.Drawing.Size(722, 524);
             this.guna2Panel2.TabIndex = 30;
             // 
             // Form1
@@ -500,7 +503,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1397, 715);
+            this.ClientSize = new System.Drawing.Size(1364, 715);
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.lblLoaiMH);
             this.Controls.Add(this.lblKhuVuc);

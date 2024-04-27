@@ -190,6 +190,9 @@ namespace GUI
                     containerCTHD.Controls.Add(listCTHDGUI[i]);
                 }
                 lblTongTT.Text = FormatCurrency(tongtt.ToString());
+                /*if (containerCTHD.Controls.Count > 6)
+                    containerCTHD.Padding = new Padding(3,0,0,0);
+                else containerCTHD.Padding = new Padding(10,0,0,0);*/
             }
         }
 

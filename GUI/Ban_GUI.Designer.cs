@@ -121,6 +121,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.background);
             this.DoubleBuffered = true;
+            this.Margin = new System.Windows.Forms.Padding(8, 3, 3, 8);
             this.Name = "Ban_GUI";
             this.Size = new System.Drawing.Size(102, 83);
             this.Load += new System.EventHandler(this.Ban_GUI_Load);

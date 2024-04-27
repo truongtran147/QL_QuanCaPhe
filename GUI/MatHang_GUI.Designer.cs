@@ -64,11 +64,11 @@
             this.txtTenMH.Cursor = System.Windows.Forms.Cursors.Hand;
             this.txtTenMH.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTenMH.ForeColor = System.Drawing.Color.Green;
-            this.txtTenMH.Location = new System.Drawing.Point(-1, 132);
+            this.txtTenMH.Location = new System.Drawing.Point(0, 132);
             this.txtTenMH.Name = "txtTenMH";
             this.txtTenMH.ReadOnly = true;
             this.txtTenMH.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
-            this.txtTenMH.Size = new System.Drawing.Size(160, 40);
+            this.txtTenMH.Size = new System.Drawing.Size(162, 40);
             this.txtTenMH.TabIndex = 6;
             this.txtTenMH.Text = "Đây là tên mặt hàng trong quán";
             this.txtTenMH.MouseDown += new System.Windows.Forms.MouseEventHandler(this.txtTenMH_MouseDown);
@@ -76,7 +76,6 @@
             // overlay
             // 
             this.overlay.BackColor = System.Drawing.Color.Transparent;
-            this.overlay.BorderColor = System.Drawing.Color.DeepSkyBlue;
             this.overlay.BorderRadius = 5;
             this.overlay.BorderThickness = 1;
             this.overlay.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -100,12 +99,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.SystemColors.HighlightText;
             this.Controls.Add(this.overlay);
             this.Controls.Add(this.txtTenMH);
             this.Controls.Add(this.lblDonGia);
             this.Controls.Add(this.picAnhMH);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "MatHang_GUI";
             this.Size = new System.Drawing.Size(161, 172);
             this.Load += new System.EventHandler(this.MatHang_GUI_Load);
